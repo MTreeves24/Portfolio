@@ -1,0 +1,12 @@
+/*!
+ * Start Bootstrap - The Big Picture (http://startbootstrap.com/template-overviews/the-big-picture)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-the-big-picture/blob/master/LICENSE)
+ */
+
+body{
+    background: linear-gradient(rgba(141,153,174,0.8), rgba(141,153,174,0.5)),
+    url(images/ron.jpg) no-repeat fixed;
+    background-size: cover;
+    color: white;
+}

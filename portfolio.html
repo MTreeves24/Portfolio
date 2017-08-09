@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+<script src="https://use.fontawesome.com/c14a985946.js"></script>
+<link rel="stylesheet" type="text/css" href="CSS/portfolio.css">
+<script type="text/javascript" src="portfolio.js"></script>
+    <title>Portfolio</title>
+</head>
+
+<body>
+
+<nav class="navbar fixed-top navbar-inverse navbar-toggleable-sm opaque-navbar">
+  <div class="container containernav">
+    <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#myContent" aria-controls="myContent" aria-expanded="false" aria-label="toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <h1 class="navbar-brand m-0">Michael Treeves</h1>
+  <div class="collapse navbar-collapse" id="myContent">
+  <div class="navbar-nav ml-auto">
+    <a class="nav-item nav-link" href="#about">About</a>
+    <a class="nav-item nav-link" href="#portfolio">Portfolio</a>
+    <a class="nav-item nav-link" href="#contact">Contact</a>
+  </div> <!--navbar-nav-->
+  </div> <!--collapse-->
+  </div> <!--container-->
+</nav>
+
+<div class="container-fluid container1">
+<div class="height100vh">
+<section class="row row1 justify-content-center">
+<p>Front-End Web Developer</p>
+    <blockquote>
+     Design is not just what it looks like and feels like. Design is how it works."<br> - <i>Steve Jobs</i>
+    </blockquote>
+</section> <!--row1-->
+</div>
+
+<div class="row row2" id="about">
+<div class="col-md-4 text-center push-md-1">
+<img class="profilepic img-thumbnail" src="http://i.imgur.com/W7Qt0Lv.jpg" alt="profile pic"></a>
+</div> <!--col-->
+<div class="col-md-6 push-md-1">
+<h1>I'm Mike</h1><br><p>A self-taught Web Developer with great desire to work in the industry following a drastic career change.<br>
+Over the past three months, I have been off work and intensively studying the necessary to achieve my dream job.</p>
+<p>I currently have a great understanding of HTML and CSS, and intermediate level of Javascript, jQuery and the Bootstrap Framework.<br>
+My knowledge comes from resources such as FreeCodeCamp, CodeAcademy, Colt Steele's Web Developer Bootcamp, Sololearn and Lynda.com.</p>
+</div> <!--col2-->
+</div>  <!--row2-->
+
+
+<div class="row row3 text-center" id="portfolio">
+<section class="col-sm-4">
+<img class="img-fluid test" src="http://www.3brecruitment.co.uk/website/assets/images/placeholders/portfolio-placeholder.jpg">
+</section>
+<section class="col-sm-4">
+<img class="img-fluid test"src="http://www.3brecruitment.co.uk/website/assets/images/placeholders/portfolio-placeholder.jpg">
+</section>
+<section class="col-sm-4">
+<img class="img-fluid test"src="http://www.3brecruitment.co.uk/website/assets/images/placeholders/portfolio-placeholder.jpg">
+</section>
+</div><!--row3-->
+
+<div class="row row4 justify-content-center" id="contact">
+    <section class="col-sm-5">
+        <div class="content-wrap">
+            <legend>Social Media<legend>
+
+            <div class="contact-info">
+                <a href="https://www.linkedin.com/in/michael-treeves-b95179115/" <i class="fa fa-linkedin" aria-hidden="true" target="_blank"></i><span class="sr-only">LinkedIn</span></a>
+                <br>
+                <a href="https://www.facebook.com/mtreeves"><i class="fa fa-facebook" aria-hidden="true" target="_blank"></i><span class="sr-only">Facebook</span></a>
+            </div>
+                </div>
+        </section>
+
+
+        <section class="col-sm-5">
+            <form>
+              <fieldset class="form-group text-md-left">
+                  <legend class="text-center">Email me</legend>
+                  <div class="form-group">
+                    <label class="form-control-label" for="yourname" placeholder="Your Name">Your Name</label>
+                  <input class="form-control" type="text" id="yourname" placeholder="Your Name">
+                </div> <!--form-group-->
+
+                <div class="form-group">
+                    <label class="form-control-label" for="contactnumber" placeholder="Your Number">Contact Number</label>
+                    <input class="form-control" type="text" id="contactnumber" placeholder="Your Number">
+                </div> <!--form-group-->
+                <div class="form-group ">
+                    <label class="form-control-label" for="enquiry">Enquiry</label>
+                    <textarea class="form-control" id="enquiry" rows="3"></textarea>
+                </div> <!--form-group-->
+                <form method="post" action="mailto:mtreeves24@gmail.com">
+                <input type="submit" value="Submit" class="btn btn-primary">
+<!--                 <button class="btn btn-primary justify-content-left" type="mailto:mtreeves24@gmail.com">Submit
+ -->                </button>
+              </fieldset>
+
+            </form>
+        </section>
+</div><!--row4-->
+
+<footer>
+            <p>Copyright 2017 by Michael Treeves</p>
+</footer>
+</div> <!--container-->
+</body>
+
+
+</html>
